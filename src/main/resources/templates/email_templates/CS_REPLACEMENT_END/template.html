@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="fr" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
+<body class="text-center">
+<p>Cher(e) <span th:text="${USER_FULLNAME}"></span>,</p>
+<p>La date de remplacement de l'utilisateur <span th:text="${REPLACED_USER_EMAIL}"></span> est passée.</p>
+<p>Vous ne pouvez plus avoir accès aux activit&eacute;s de ce dernier.</p>
+Bien cordialement,<br>
+<th:block th:replace="email_templates/footer :: template-footer"/>
+</body>
+</html>

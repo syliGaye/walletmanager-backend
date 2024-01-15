@@ -1,0 +1,11 @@
+Cher(e) ${USER_FULLNAME},
+
+Nous vous informons que votre compte utilisateur à l'espace client a été supprimé.
+
+Bien cordialement,
+
+*Espace client RMO**
+Service informatique*
+16 BP 1808 Abidjan 16
+Poste 901 / Tél. 21 35 92 42 / Fax. 21 35 53 13
+www.rmo-jobcenter.com <http://www.rmo-jobcenter.com/>

@@ -1,0 +1,15 @@
+Cher(e) ${USER_FULLNAME},
+
+Votre compte pour l'espace client de RMO a été activé. Votre mot de passe est:
+
+${NEW_PASSWORD}
+
+Ce mot de passe est temporaire et vous serez obligé de le changer.
+
+Bien cordialement,
+
+*Espace client RMO**
+Service informatique*
+16 BP 1808 Abidjan 16
+Poste 901 / Tél. 21 35 92 42 / Fax. 21 35 53 13
+www.rmo-jobcenter.com <http://www.rmo-jobcenter.com/>

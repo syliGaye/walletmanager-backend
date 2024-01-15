@@ -1,0 +1,13 @@
+Cher(e) ${USER_FULLNAME},
+
+Un compte utilisateur a été créé pour vous dans notre espace client. Veuillez cliquer sur le lien suivant pour activer votre compte:
+
+${LINK}
+
+Bien cordialement,
+
+*Espace client RMO**
+Service informatique*
+16 BP 1808 Abidjan 16
+Poste 901 / Tél. 21 35 92 42 / Fax. 21 35 53 13
+www.rmo-jobcenter.com <http://www.rmo-jobcenter.com/>

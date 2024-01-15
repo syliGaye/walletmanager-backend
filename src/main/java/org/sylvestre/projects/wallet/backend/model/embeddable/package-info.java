@@ -1,0 +1,1 @@
+package org.sylvestre.projects.wallet.backend.model.embeddable;

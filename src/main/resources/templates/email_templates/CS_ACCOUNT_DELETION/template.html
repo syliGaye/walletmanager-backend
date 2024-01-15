@@ -1,0 +1,11 @@
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	</head>
+	<body text="#000000" bgcolor="#FFFFFF">
+	<p>Cher(e) <span th:text="${USER_FULLNAME}"></span>,</p>
+		<p>Nous vous informons que votre compte utilisateur à l'espace client a &eacute;t&eacute; supprim&eacute;.</p>
+		Bien cordialement,<br>
+	<th:block th:replace="email_templates/footer :: template-footer"/>
+	</body>
+</html>

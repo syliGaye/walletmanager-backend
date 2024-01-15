@@ -1,0 +1,12 @@
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	</head>
+	<body text="#000000" bgcolor="#FFFFFF">
+	<p>Cher(e) <span th:text="${USER_FULLNAME}"></span>,</p>
+		<p>Un compte utilisateur a &eacute;t&eacute; cr&eacute;&eacute; pour vous dans notre espace client. Veuillez cliquer sur le lien suivant pour activer votre compte:</p>
+		<p><a th:href="${LINK}" th:text="${LINK}"></a></p>
+		Bien cordialement,<br>
+	<th:block th:replace="email_templates/footer :: template-footer"/>
+	</body>
+</html>
